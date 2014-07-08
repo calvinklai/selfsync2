@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE IAT SYSTEM "https://implicit.harvard.edu/implicit/research/library/dtd/ImplicitIAT_001.dtd">
+
+<IAT results ="false">
+    <IATName>primingtask-asian</IATName>
+    <Categories>
+        <Category>
+            <CategoryNumber>0</CategoryNumber>
+            <Stimuli>
+                <CategoryName>Animate</CategoryName>
+                <CategoryImgURL></CategoryImgURL>
+				<Stimulus type="image">asian1.jpg</Stimulus>
+				<Stimulus type="image">asian2.jpg</Stimulus>
+				<Stimulus type="image">asian3.jpg</Stimulus>
+				<Stimulus type="image">asian4.jpg</Stimulus>
+				<Stimulus type="image">asian5.jpg</Stimulus>
+				<Stimulus type="image">asian6.jpg</Stimulus>
+				<Stimulus type="image">asian7.jpg</Stimulus>
+				<Stimulus type="image">asian8.jpg</Stimulus>
+				<Stimulus type="image">asian9.jpg</Stimulus>
+				<Stimulus type="image">asian10.jpg</Stimulus>
+            </Stimuli>
+        </Category>
+		<Category>
+            <CategoryNumber>1</CategoryNumber>
+            <Stimuli>
+                <CategoryName>Inanimate</CategoryName>
+                <CategoryImgURL></CategoryImgURL>
+				<Stimulus type="image">furn1.jpg</Stimulus>
+				<Stimulus type="image">furn2.jpg</Stimulus>
+				<Stimulus type="image">furn3.jpg</Stimulus>
+				<Stimulus type="image">furn4.jpg</Stimulus>
+				<Stimulus type="image">furn5.jpg</Stimulus>
+				<Stimulus type="image">furn6.jpg</Stimulus>
+				<Stimulus type="image">furn7.jpg</Stimulus>
+				<Stimulus type="image">furn8.jpg</Stimulus>
+				<Stimulus type="image">furn9.jpg</Stimulus>
+				<Stimulus type="image">furn10.jpg</Stimulus>
+            </Stimuli>
+        </Category>
+    </Categories>
+    <Block>
+		<Instructions><![CDATA[<font size="14"><p>Put your left index finger on <b>E</b> and your right index finger on <b>I</b>.  Sort each individual or object to the side in which its category appears.  If you make an error, an <font color="#FF0000"><b>X</b></font> will appear until you hit the correct key.  </p><br/><p align="center">Press the <b>space bar</b> to begin.</p></font>]]></Instructions>
+        <BlockNumber>0</BlockNumber>
+        <TrialCount>40</TrialCount>
+        <BlockPairingDefinition>0,1</BlockPairingDefinition>
+    </Block>
+</IAT>
+

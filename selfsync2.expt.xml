@@ -1,0 +1,62 @@
+<Study id="calvin.selfsync.002" datagroup="research"> 
+	<Definitions>
+		<!-- Core Files -->
+		<Task id="startpage">/common/en-us/html/Instructions.jsp</Task>
+		<Task id="consent">consent.html</Task>
+		<Task id="lastpage">lastpage.html</Task>
+		<Task id="debriefing">debriefing.jsp</Task>
+		<Task id="realstart">realstartskip.htm</Task>
+	
+		<Task id="intro1">intro1.html</Task>
+		<Task id="intro2">intro2.html</Task>
+		
+		<!--Construal Task-->
+		<Task id="independence">independence.html</Task>
+		<Task id="interdependence">interdependence.html</Task>
+		
+		<!-- Priming Task -->
+		<Task id="intro-primingtask">intro-primingtask.html</Task>
+		<Task id="primingtask-asian" file="primingtask-asian.xml">iattask-primingtask.jsp</Task>
+		<Task id="primingtask-black" file="primingtask-black.xml">iattask-primingtask.jsp</Task>
+
+		<!-- Implicit Identification -->
+		<Task id="instructions">instructions.html</Task>
+		<Task id="asianblackidena" file="asianblackidena.xml" properties="default-primingtask.xml">/common/all/js/iatjs/iattaskj.jsp</Task>
+		<Task id="asianblackidenb" file="asianblackidenb.xml" properties="default-primingtask.xml">/common/all/js/iatjs/iattaskj.jsp</Task>
+
+		<Task id="manipcheck">manipcheck.jsp</Task>
+		<Task id="questionnaire">questionnaire.jsp</Task>
+	</Definitions>
+	
+	<Map>
+		<Task id="startpage"/>
+		<Task id="consent"/>
+		<Task id="realstart"/>
+
+		<Task id="intro1"/>
+		<Task id="intro2"/>	
+		
+		<Branch type="group" select="1" id="construal-cond">
+			<Task id="independence"/>
+			<Task id="interdependence"/>			
+		</Branch>
+		
+		<Task id="manipcheck"/>
+		<Task id="intro-primingtask"/>		
+		
+		<Branch type="group" select="1" id="primingtask-cond">
+			<Task id="primingtask-asian"/>
+			<Task id="primingtask-black"/>
+		</Branch>
+
+		<Task id="instructions"/>
+		<Branch type="group" select="1" id="randomorder-iat">
+			<Task id="asianblackidena"/>
+			<Task id="asianblackidenb"/>
+		</Branch>
+		
+		<Task id="questionnaire"/>				
+		<Task id="lastpage"/>
+		<Task id="debriefing"/>
+	</Map>
+</Study>
