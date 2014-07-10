@@ -16,8 +16,8 @@
 		
 		<!-- Priming Task -->
 		<Task id="intro-primingtask">intro-primingtask.html</Task>
-		<Task id="primingtask-asian" file="primingtask-asian.xml">iattask-primingtask.jsp</Task>
-		<Task id="primingtask-black" file="primingtask-black.xml">iattask-primingtask.jsp</Task>
+		<Task id="primingtask-asian" file="primingtask-asian.xml" properties="default-primingtask.xml">iattask-primingtask.jsp</Task>
+		<Task id="primingtask-black" file="primingtask-black.xml" properties="default-primingtask.xml">iattask-primingtask.jsp</Task>
 
 		<!-- Implicit Identification -->
 		<Task id="instructions">instructions.html</Task>

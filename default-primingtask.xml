@@ -46,7 +46,7 @@
 
 	<arg name="RIGHT_KEY">73</arg>
 
-	<arg name="ERR_CORR">1</arg>
+	<arg name="ERR_CORR">0</arg>
 
 	<arg name="ERR_FEED">1</arg>
 
