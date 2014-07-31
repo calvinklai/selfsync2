@@ -21,8 +21,8 @@
 
 		<!-- Implicit Identification -->
 		<Task id="instructions">instructions.html</Task>
-		<Task id="asianblackidena" file="asianblackidena.xml" properties="default-primingtask.xml">/common/all/js/iatjs/iattaskj.jsp</Task>
-		<Task id="asianblackidenb" file="asianblackidenb.xml" properties="default-primingtask.xml">/common/all/js/iatjs/iattaskj.jsp</Task>
+		<Task id="asianblackidena" file="asianblackidena.xml" properties="default-iattask.xml">iattask-ideniat.jsp</Task>
+		<Task id="asianblackidenb" file="asianblackidenb.xml" properties="default-iattask.xml">iattask-ideniat.jsp</Task>
 
 		<Task id="manipcheck">manipcheck.jsp</Task>
 		<Task id="questionnaire">questionnaire.jsp</Task>

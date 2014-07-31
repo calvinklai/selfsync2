@@ -40,7 +40,7 @@
         </Category>
     </Categories>
     <Block>
-		<Instructions><![CDATA[<font size="14"><p>Put your left index finger on <b>E</b> and your right index finger on <b>I</b>.  Sort each individual or object to the side in which its category appears.  If you make an error, an <font color="#FF0000"><b>X</b></font> will appear until you hit the correct key.  </p><br/><p align="center">Press the <b>space bar</b> to begin.</p></font>]]></Instructions>
+		<Instructions><![CDATA[<font size="14"><p>Put your left index finger on <b>E</b> and your right index finger on <b>I</b>.  Sort each individual or object to the side in which its category appears.</p><br/><p align="center">Press the <b>space bar</b> to begin.</p></font>]]></Instructions>
         <BlockNumber>0</BlockNumber>
         <TrialCount>40</TrialCount>
         <BlockPairingDefinition>0,1</BlockPairingDefinition>

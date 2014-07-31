@@ -9,7 +9,7 @@ String[][][] globals = {
 String[][][] ratings =
 {
 {{"ratings"},{"ncols","1"},{"flow","horizontal"},{"direction","left"}},
-{{"rate1"},{"options","I identify with Blacks much more strongly than with Asians", "I identify with Blacks moderately more strongly than with Asians", "I identify with Blacks slightly more strongly than with Asians", "I identify with Blacks and Asians equally", "I identify with Asians slightly more strongly than with Blacks",  "I identify with Asians moderately more strongly than with Blacks",  "I identify with Asians much more strongly than with Blacks"}},  
+{{"rate1"},{"options","I identify with Black people much more strongly than with Asian people", "I identify with Black people moderately more strongly than with Asian people", "I identify with Black people slightly more strongly than with Asian people", "I identify with Black people and Asian people equally", "I identify with Asian people slightly more strongly than with Black people",  "I identify with Asian people moderately more strongly than with Black people",  "I identify with Asian people much more strongly than with Black people"}},  
 
 };
 
